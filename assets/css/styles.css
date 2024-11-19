@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: young;
+  src: url('/assets/fonts/young-serif/YoungSerif-Regular.ttf');
+}
+
+body {
+  width: 100%;
+}
+
+.padding-1 {
+  padding: 16px;
+}
+
+.padding-2 {
+  padding: 32px;
+}
+
+.font-subtitle {
+  font-size: 36px;
+  color: hsl(14, 45%, 36%);
+  margin-bottom: 20px;
+  font-family: young;
+}
+
+.margin-top-1 {
+  margin-top: 40px;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+.max-width {
+  max-width: 1280px;
+}
+
+.header {
+  padding-top: 25px;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.header_imagen {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.header_titulo {
+  color: hsl(24, 5%, 18%);
+  margin-top: 20px;
+  font-size: 80px;
+  font-family: young;
+}
+
+.header_descripcion {
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.preparation_time {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 30px;
+}
+.preparation_time_title {
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 16px;
+  font-size: 24px;
+}
+
+.preparation_time ul li::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+ul > li,
+ol > li {
+  margin-bottom: 16px;
+}
+
+.ingredients ul li::marker,
+.instructions ol > li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+.nutrition_table {
+  width: 100%;
+}
+
+td {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  padding: 8px;
+}
+
+td:nth-child(2) {
+  color: hsl(14, 45%, 36%);
+  font-weight: 800;
+}
